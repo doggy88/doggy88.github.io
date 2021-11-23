@@ -1,0 +1,101 @@
+#random-name {
+    margin: 2rem 0;
+    position: relative;
+    width: 100%;
+    font-size: 2rem; 
+    text-align: center;
+
+  }
+
+  *:before,
+  *:after{
+      box-sizing: border-box;
+  }
+   *{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      box-sizing: border-box;
+  
+  }
+  body{
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      background: #468499;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      padding: 1rem;
+  
+  }
+  .container{
+      width: calc(768px - 1rem);
+      background: #0f2229;
+      color: #fff;
+      padding: 100px;
+      border-radius: 10px;
+  
+  }
+  .container h1{
+    font-weight: 400;
+    font-family: "Mortal Kombat 2";
+    font-size: 2rem;
+    text-align: center;
+    position: static;
+    left: 220px;
+    top: 10px;
+    color: yellow;
+      
+
+  
+  }
+  .container .form input{
+      width: 100%;
+      background: #1f3941;
+      border: none;
+      outline: none;
+      padding: 15px 145px 15px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 1.2rem;
+  }
+  
+  .container button{
+    position: absolute;
+  left: 290px;
+  top: 220px;
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    cursor: url('war2.gif'), auto;	
+    }
+    
+    .container button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      
+  
+  
+  
+      
+  }
+  
+  .container .nameBox span{
+      font-size: 1.2rem;
+      font-weight: 300;
+      text-transform: capitalize;
+      letter-spacing: .3px;
+      
+  }
+
