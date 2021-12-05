@@ -1,0 +1,90 @@
+/*body{
+    height: 110vh;
+}
+/* Center corresponding child elements within its grid area */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* styling title */
+.titleBG{
+    background-color: rgb(80, 63, 230);
+}
+
+.title{
+    margin-top: 25px;   
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(80, 63, 230);
+    box-shadow: 5px 5px 10px black;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.subtitle{
+    color: white;
+}
+.extraMargin{
+    margin-top: 25px;
+}
+
+.nameGenBG{
+    margin-top: 50px;
+    
+    padding-bottom: 50px;
+
+
+
+    
+}
+.nameGenFont{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.marginRight{
+    margin-right: 30px;
+}
+
+/* Editing styling for btn group and NameGen Btn */
+
+.btnSize{
+    padding: 15px 15px 15px 15px;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+}
+ .buttonPadding{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    display: flex;
+   
+  
+ }
+
+ .btn:hover{
+    background-color: rgb(238, 238, 238);
+    color: black;
+ }
+ .btn{
+    border-radius: 40px;
+     cursor: url('war2.gif'), auto;	
+    
+    
+     
+ }
+
+ 
+ .btn_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  
